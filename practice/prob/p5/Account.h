@@ -14,5 +14,4 @@ public:
     void withdraw(int num);
     void transfer(string toID, int num);
     void search(string searchID);
-    void find(string wildcardID);
 };

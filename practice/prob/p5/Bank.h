@@ -13,4 +13,5 @@ public:
     void create(string newID, string newPassword);
     void deleteAccount(string deleteID, string deletePassword);
     void merge(string ID1, string password1, string ID2, string password2);
+    void find(string wildcardID);
 };
